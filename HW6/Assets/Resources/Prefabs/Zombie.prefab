@@ -11,32 +11,32 @@ PrefabInstance:
     - target: {fileID: 399528755730747395, guid: aa27a5d234e148745a90790e1c87ce24,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 70
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 399528755730747395, guid: aa27a5d234e148745a90790e1c87ce24,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 70
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 399528755730747395, guid: aa27a5d234e148745a90790e1c87ce24,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 70
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 399528755730747395, guid: aa27a5d234e148745a90790e1c87ce24,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26807.2
+      value: 408.5755
       objectReference: {fileID: 0}
     - target: {fileID: 399528755730747395, guid: aa27a5d234e148745a90790e1c87ce24,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 108.4
+      value: 3.4771423
       objectReference: {fileID: 0}
     - target: {fileID: 399528755730747395, guid: aa27a5d234e148745a90790e1c87ce24,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13593.2
+      value: 375.4357
       objectReference: {fileID: 0}
     - target: {fileID: 399528755730747395, guid: aa27a5d234e148745a90790e1c87ce24,
         type: 3}
@@ -91,7 +91,7 @@ PrefabInstance:
     - target: {fileID: 6594717042902695566, guid: aa27a5d234e148745a90790e1c87ce24,
         type: 3}
       propertyPath: m_Mass
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1401139532381281685, guid: aa27a5d234e148745a90790e1c87ce24, type: 3}
@@ -131,13 +131,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 0
   baseTarget: {fileID: 0}
-  attackDistance: 30
-  playerAttackDistance: 30
-  detectionRadius: 100
+  attackDistance: 3
+  playerAttackDistance: 3
+  detectionRadius: 10
   attackInterval: 1
   damage: 10
   maxHealth: 100
-  moveSpeed: 60
+  moveSpeed: 0
   rotationSpeed: 5
   bloodEffect: {fileID: 745279661443572167, guid: 206f68a9962474749a86a50314d7bafb,
     type: 3}
